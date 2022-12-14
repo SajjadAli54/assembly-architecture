@@ -1,0 +1,53 @@
+Von Neuman Architecture (IAS Computer)
+    
+    * Principles
+        * Single memory can hold data and instructions simultaneously (Stored Program Concept).
+        * Memory will be segmented with appropriate address to each segment.
+        * Programs will be executed sequentially.
+    * Structure
+        * CA (Arithmetic and Logic Unit) 
+        * CC (Central Control or Control Unit)
+        * M (Memory)
+        * R (Outside Record medium of the device)
+        * I (Input)
+        * O (Output)
+
+    * Registers
+        * Memory Buffer Register (MBR)
+            * Contains a word to be 
+                * stored in memory 
+                * sent to the I/O unit 
+                * used to receive a word from memory or from the I/O unit.
+        * Memory address Register (MAR)
+            * Specifies the address in memory of the word to be written from or read into the MBR.
+        * Instruction Register (IR)
+            * Contains the 8 bit opcode of instruction to be executed 
+        * Instruction Buffer Register (IBR)
+            * Employed to hold the temporarily the right-hand instruction from a word in memory
+        * Program Counter (PC)
+            * Contains the address of the next instruction pair to be fetched from memory
+        * Accumulator (AC) and Multiplier Quotient(MQ)
+            * Employed to hold temporarily operands and results of ALU operations. For example, the result of
+            multiplying two 4-bit numbers is an 8-bit number; the most significant 4 bits
+            are stored in the AC and the least significant in the MQ.
+
+Pipelining
+
+    * 5 stage Pipelining
+        * Fetch      ---> It fetches the instructions
+        * Decode     ---> It decodes the instruction to machine code
+        * Fetch data ---> It fetches the data from any medium(if any).
+        * Execute    ---> It executes the instructions
+        * Store      ---> It stores the result of execution in memory(if any).
+
+    * 3 stage Pipelining
+        * Fetch
+        * Decode
+        * Execute
+
+Branch Instructions
+    * These are the instructions which changes the normal flow of Program
+        * Loops
+        * If statements
+        * Unconditional Branches
+        * Methods and Functions

@@ -1,0 +1,54 @@
+Architecture
+    * The art of practice of designing the constructing building
+    * The complex or carefully designed structure of something
+
+Factors Affecting the performance of the computer
+
+    * Micro Processor
+    * Memory
+    * Bus (Group of wires to transfer data)
+    * I/O Modules
+    * Operating System and Derivers
+
+Instruction Set ----->    Collection of Instructions
+    * Logical Instructions      cin, string, int etc.
+    * Physical Instructions     The machine code representing the Logical Instructions
+
+Architecture and Organization
+    Architecture                                Organization
+
+    * It is frontend engineering.               * It is backend engineering.
+    * Those attributes which are visible        * It is How features are implemented.
+      to the programmer.                          Control Signals, interfaces, Memory technology etc.
+      Instruction set, number of bits             e.g. Is there a hardware multiply unit or is it done by repititive addition?
+      used for data transfer etc.
+      e.g. Is there a multiply Instruction?
+
+Structure and Function
+    * Structure is the way in which components relate to each other.
+    * Function is the operation of individual components as part of the structure
+        * All Computer functions are:
+            * Data Processing   ---> Process the data, execute it to perform some specific operations
+            * Data Storage      ---> Store or capture the data in Memory
+            * Data Movement     ---> Data Transfer between components
+            * Control           ---> Identify what operations to perform on data
+
+    * Top Level View of Structure of Computer
+        * Peripherals
+        * Communication Lines
+        * Computer
+            * CPU
+            * Main Memory
+            * I/O
+            * System Interconnection Buses
+
+    * Structure of CPU
+        * Registers
+        * Arithmetic and Logic unit
+        * Control unit
+        * Internal CPU Interconnection
+
+    * Structure of Control unit
+        * Sequencing Logic
+        * Control Unit Registers and Decoders
+        * Control Memory
